@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>マインドセット音声プログラム 端末インストール手順</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --primary-dark: #1b4442;
+    --primary: #298d8c;
+    --primary-mid: #3ac6c5;
+    --primary-light: #9eedec;
+    --text-main: #191919;
+    --text-sub: #5e5e5e;
+    --bg: #fdfbf9;
+    --accent: #f69c76;
+    --complete-bg: #e9edc4;
+  }
+
+  * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: var(--bg);
+    color: var(--text-main);
+    line-height: 1.7;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+  }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(to bottom, var(--primary-dark), var(--primary));
+    color: #fff;
+    padding: 48px 24px 56px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 14px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  .hero p {
+    font-size: 14px;
+    margin: 0;
+    opacity: 0.95;
+    line-height: 1.7;
+  }
+
+  /* STEP CARD */
+  .step-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(27, 68, 66, 0.08);
+    padding: 28px 24px;
+    margin-bottom: 20px;
+  }
+
+  .step-card.complete {
+    background: var(--complete-bg);
+  }
+
+  .step-badge {
+    display: inline-block;
+    background: var(--primary-dark);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 5px 12px;
+    border-radius: 6px;
+    letter-spacing: 0.08em;
+    margin-bottom: 14px;
+  }
+
+  .step-title {
+    color: var(--primary);
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0 0 12px;
+    line-height: 1.5;
+  }
+
+  .step-desc {
+    color: var(--text-sub);
+    font-size: 15px;
+    margin: 0 0 18px;
+    line-height: 1.8;
+  }
+
+  .step-card:last-child .step-desc,
+  .step-card.complete .step-desc {
+    margin-bottom: 0;
+  }
+
+  /* CTA BUTTONS */
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 18px;
+  }
+
+  .btn-cta {
+    display: block;
+    background: var(--accent);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    transition: opacity 0.15s ease, transform 0.1s ease;
+  }
+
+  .btn-cta:active {
+    opacity: 0.85;
+    transform: scale(0.99);
+  }
+
+  /* COPY BOX (STEP 6) */
+  .copy-box {
+    border: 2px dashed var(--primary-mid);
+    background: rgba(158, 237, 236, 0.19);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background 0.2s ease;
+  }
+
+  .copy-box:active {
+    background: rgba(158, 237, 236, 0.35);
+  }
+
+  .copy-label-top,
+  .copy-label-bottom {
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .copy-label-top {
+    margin-bottom: 14px;
+  }
+
+  .copy-label-bottom {
+    margin-top: 14px;
+  }
+
+  .copy-url {
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--text-main);
+    word-break: break-all;
+    line-height: 1.5;
+  }
+
+  /* CONTACT */
+  .contact-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(27, 68, 66, 0.08);
+    padding: 32px 24px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .contact-icon {
+    font-size: 44px;
+    color: #939292;
+    margin-bottom: 12px;
+    line-height: 1;
+  }
+
+  .contact-title {
+    font-weight: 700;
+    font-size: 17px;
+    margin: 0 0 12px;
+    color: var(--text-main);
+  }
+
+  .contact-body {
+    color: var(--text-sub);
+    font-size: 14px;
+    margin: 0 0 14px;
+    line-height: 1.8;
+  }
+
+  .contact-email {
+    font-size: 15px;
+    color: var(--primary);
+    font-weight: 700;
+    text-decoration: none;
+    word-break: break-all;
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>マインドセット音声プログラム<br>端末インストール手順</h1>
+  <p>下記の手順にて、音声プログラムをインストールしてください。</p>
+</header>
+
+<main class="container">
+
+  <!-- STEP 1 -->
+  <section class="step-card">
+    <span class="step-badge">STEP 1</span>
+    <h2 class="step-title">YouTube Music アプリを準備</h2>
+    <p class="step-desc">まずは専用アプリをスマートフォンにインストールします。</p>
+    <div class="btn-group">
+      <a class="btn-cta" href="https://apps.apple.com/jp/app/youtube-music/id1017492454" target="_blank" rel="noopener">App Store からダウンロード</a>
+      <a class="btn-cta" href="https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music" target="_blank" rel="noopener">Google Play で手に入れよう</a>
+    </div>
+  </section>
+
+  <!-- STEP 2 -->
+  <section class="step-card">
+    <span class="step-badge">STEP 2</span>
+    <h2 class="step-title">ライブラリを開く</h2>
+    <p class="step-desc">アプリを起動し、右下の「ライブラリ」をタップします。</p>
+  </section>
+
+  <!-- STEP 3 -->
+  <section class="step-card">
+    <span class="step-badge">STEP 3</span>
+    <h2 class="step-title">ポッドキャストに切り替え</h2>
+    <p class="step-desc">上部のメニューをスライドし、「ポッドキャスト」を選択します。</p>
+  </section>
+
+  <!-- STEP 4 -->
+  <section class="step-card">
+    <span class="step-badge">STEP 4</span>
+    <h2 class="step-title">追加ボタンをタップ</h2>
+    <p class="step-desc">「＋ ポッドキャストを追加」ボタンを押します。</p>
+  </section>
+
+  <!-- STEP 5 -->
+  <section class="step-card">
+    <span class="step-badge">STEP 5</span>
+    <h2 class="step-title">RSSフィードを選択</h2>
+    <p class="step-desc">「RSSフィードでポッドキャストを追加する」を選択します。</p>
+  </section>
+
+  <!-- STEP 6 -->
+  <section class="step-card">
+    <span class="step-badge">STEP 6</span>
+    <h2 class="step-title">URLを貼り付けて完了</h2>
+    <p class="step-desc">下の枠をタップしてコピーし、アプリに貼り付けてください。</p>
+    <div class="copy-box" id="copyBox" role="button" tabindex="0" aria-label="URLをコピー">
+      <p class="copy-label-top" id="copyLabelTop">📎 タップして自動コピー</p>
+      <div class="copy-url" id="copyUrl">https://sonomama-radio.github.io/mindset-podcast/podcast.xml</div>
+      <p class="copy-label-bottom">👆 ここをタップ</p>
+    </div>
+  </section>
+
+  <!-- STEP 7 -->
+  <section class="step-card complete">
+    <span class="step-badge">STEP 7</span>
+    <h2 class="step-title">完了！</h2>
+    <p class="step-desc">追加されると、いつでも音声をお聴きいただけます。</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-card">
+    <div class="contact-icon">💬</div>
+    <p class="contact-title">ご不明な点がある場合</p>
+    <p class="contact-body">件名に「音声プログラムの件」と記載の上、下記までお問い合わせください。</p>
+    <!-- TODO: メールアドレスをここに入れる -->
+  </section>
+
+</main>
+
+<script>
+  (function () {
+    var box = document.getElementById('copyBox');
+    var labelTop = document.getElementById('copyLabelTop');
+    var urlEl = document.getElementById('copyUrl');
+    var defaultText = '📎 タップして自動コピー';
+    var successText = '✅ コピーしました！';
+    var revertTimer = null;
+
+    function fallbackCopy(text) {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(ta);
+    }
+
+    function showSuccess() {
+      labelTop.textContent = successText;
+      if (revertTimer) clearTimeout(revertTimer);
+      revertTimer = setTimeout(function () {
+        labelTop.textContent = defaultText;
+      }, 2000);
+    }
+
+    function copyUrl() {
+      var text = urlEl.textContent.trim();
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(showSuccess, function () {
+          fallbackCopy(text);
+          showSuccess();
+        });
+      } else {
+        fallbackCopy(text);
+        showSuccess();
+      }
+    }
+
+    box.addEventListener('click', copyUrl);
+    box.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        copyUrl();
+      }
+    });
+  })();
+</script>
+
+</body>
+</html>

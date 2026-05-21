@@ -8,13 +8,13 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://sonomama-radio.github.io/mindset-podcast/cover.jpg"/>
     <item>
-      <title>Episode 01｜サンプルタイトル</title>
-      <description>エピソードの説明文をここに記載します。</description>
+      <title>Episode 01｜マインドセットがなぜ大事か</title>
+      <description>マインドセットがなぜ大事かについて話しています。</description>
       <enclosure
         url="https://sonomama-radio.github.io/mindset-podcast/audio/episode01.mp3"
         type="audio/mpeg"
         length="0"/>
-      <pubDate>Sun, 17 May 2026 09:00:00 +0900</pubDate>
+      <pubDate>Thu, 22 May 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-001</guid>
     </item>
   </channel>

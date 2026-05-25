@@ -69,6 +69,31 @@
     line-height: 1.7;
   }
 
+  /* BRAND LOCKUP (hero, top-left) */
+  .hero-brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 28px;
+  }
+
+  .hero-brand .brand-mark {
+    height: 30px;
+    width: auto;
+    display: block;
+  }
+
+  .hero-brand .brand-text {
+    height: 15px;
+    width: auto;
+    display: block;
+  }
+
+  @media (max-width: 380px) {
+    .hero-brand .brand-mark { height: 26px; }
+    .hero-brand .brand-text { height: 13px; }
+  }
+
   /* STEP CARD */
   .step-card {
     background: #fff;
@@ -242,6 +267,10 @@
 <body>
 
 <header class="hero">
+  <div class="hero-brand">
+    <img class="brand-mark" src="logo-mark-white.png" alt="" loading="lazy" onerror="this.style.display='none'">
+    <img class="brand-text" src="logo-text-white.png" alt="SONOMAMA" loading="lazy" onerror="this.style.display='none'">
+  </div>
   <h1>ゼロイチラジオ　マインドセット<br>端末インストール手順</h1>
   <p>下記の手順にて、音声プログラムをインストールしてください。</p>
 </header>

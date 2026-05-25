@@ -49,9 +49,14 @@
   .hero {
     background: linear-gradient(to bottom, var(--primary-dark), var(--primary));
     color: #fff;
-    padding: 48px 24px 56px;
+    padding: 30px 24px 40px;
     text-align: center;
     margin-bottom: 32px;
+  }
+
+  .hero-inner {
+    max-width: 640px;
+    margin: 0 auto;
   }
 
   .hero h1 {
@@ -76,7 +81,7 @@
     display: flex;
     align-items: center;
     gap: 9px;
-    margin-bottom: 28px;
+    margin-bottom: 18px;
   }
 
   .hero-brand .brand-mark {
@@ -275,12 +280,14 @@
 <body>
 
 <header class="hero">
+  <div class="hero-inner">
   <div class="hero-brand">
     <img class="brand-mark" src="logo-mark-white.png" alt="" loading="lazy" onerror="this.style.display='none'">
     <img class="brand-text" src="logo-text-white.png" alt="SONOMAMA" loading="lazy" onerror="this.style.display='none'">
   </div>
   <h1>ゼロイチラジオ　マインドセット<br>端末インストール手順</h1>
   <p>下記の手順にて、<span class="nw">音声プログラムを</span><span class="nw">インストールしてください。</span></p>
+  </div>
 </header>
 
 <main class="container">

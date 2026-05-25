@@ -114,6 +114,17 @@
     margin-bottom: 0;
   }
 
+  /* STEP IMAGE */
+  .step-img {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin: 18px auto 0;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(27, 68, 66, 0.18);
+  }
+
   /* CTA BUTTONS */
   .btn-group {
     display: flex;
@@ -140,7 +151,7 @@
     transform: scale(0.99);
   }
 
-  /* COPY BOX (STEP 6) */
+  /* COPY BOX (STEP 7) */
   .copy-box {
     border: 2px dashed var(--primary-mid);
     background: rgba(158, 237, 236, 0.19);
@@ -237,6 +248,7 @@
     <span class="step-badge">STEP 1</span>
     <h2 class="step-title">YouTube Music アプリを準備</h2>
     <p class="step-desc">まずは専用アプリをスマートフォンにインストールします。</p>
+    <img class="step-img" src="step01.png" alt="STEP 1 の操作画面" loading="lazy" onerror="this.style.display='none'">
     <div class="btn-group">
       <a class="btn-cta" href="https://apps.apple.com/jp/app/youtube-music/id1017492454" target="_blank" rel="noopener">App Store からダウンロード</a>
       <a class="btn-cta" href="https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music" target="_blank" rel="noopener">Google Play で手に入れよう</a>
@@ -246,36 +258,49 @@
   <!-- STEP 2 -->
   <section class="step-card">
     <span class="step-badge">STEP 2</span>
-    <h2 class="step-title">ライブラリを開く</h2>
-    <p class="step-desc">アプリを起動し、右下の「ライブラリ」をタップします。</p>
+    <h2 class="step-title">アプリを開く</h2>
+    <p class="step-desc">インストールした YouTube Music アプリを起動します。</p>
+    <img class="step-img" src="step02.png" alt="STEP 2 の操作画面" loading="lazy" onerror="this.style.display='none'">
   </section>
 
   <!-- STEP 3 -->
   <section class="step-card">
     <span class="step-badge">STEP 3</span>
-    <h2 class="step-title">ポッドキャストに切り替え</h2>
-    <p class="step-desc">上部のメニューをスライドし、「ポッドキャスト」を選択します。</p>
+    <h2 class="step-title">ライブラリを開く</h2>
+    <p class="step-desc">右下の「ライブラリ」をタップします。</p>
+    <img class="step-img" src="step03.png" alt="STEP 3 の操作画面" loading="lazy" onerror="this.style.display='none'">
   </section>
 
   <!-- STEP 4 -->
   <section class="step-card">
     <span class="step-badge">STEP 4</span>
-    <h2 class="step-title">追加ボタンをタップ</h2>
-    <p class="step-desc">「＋ ポッドキャストを追加」ボタンを押します。</p>
+    <h2 class="step-title">ポッドキャストに切り替え</h2>
+    <p class="step-desc">上部のメニューをスライドし、「ポッドキャスト」を選択します。</p>
+    <img class="step-img" src="step04.png" alt="STEP 4 の操作画面" loading="lazy" onerror="this.style.display='none'">
   </section>
 
   <!-- STEP 5 -->
   <section class="step-card">
     <span class="step-badge">STEP 5</span>
-    <h2 class="step-title">RSSフィードを選択</h2>
-    <p class="step-desc">「RSSフィードでポッドキャストを追加する」を選択します。</p>
+    <h2 class="step-title">追加ボタンをタップ</h2>
+    <p class="step-desc">「＋ ポッドキャストを追加」ボタンを押します。</p>
+    <img class="step-img" src="step05.png" alt="STEP 5 の操作画面" loading="lazy" onerror="this.style.display='none'">
   </section>
 
   <!-- STEP 6 -->
   <section class="step-card">
     <span class="step-badge">STEP 6</span>
-    <h2 class="step-title">URLを貼り付けて完了</h2>
-    <p class="step-desc">下の枠をタップしてコピーし、アプリに貼り付けてください。</p>
+    <h2 class="step-title">RSSフィードを選択</h2>
+    <p class="step-desc">「RSSフィードでポッドキャストを追加する」を選択します。</p>
+    <img class="step-img" src="step06.png" alt="STEP 6 の操作画面" loading="lazy" onerror="this.style.display='none'">
+  </section>
+
+  <!-- STEP 7 -->
+  <section class="step-card">
+    <span class="step-badge">STEP 7</span>
+    <h2 class="step-title">URLを貼り付ける</h2>
+    <p class="step-desc">下の枠をタップしてコピーし、入力欄に貼り付けます。</p>
+    <img class="step-img" src="step07.png" alt="STEP 7 の操作画面" loading="lazy" onerror="this.style.display='none'">
     <div class="copy-box" id="copyBox" role="button" tabindex="0" aria-label="URLをコピー">
       <p class="copy-label-top" id="copyLabelTop">📎 タップして自動コピー</p>
       <div class="copy-url" id="copyUrl">https://sonomama-radio.github.io/mindset-podcast/podcast.xml</div>
@@ -283,11 +308,20 @@
     </div>
   </section>
 
-  <!-- STEP 7 -->
+  <!-- STEP 8 -->
+  <section class="step-card">
+    <span class="step-badge">STEP 8</span>
+    <h2 class="step-title">追加を確定</h2>
+    <p class="step-desc">「追加」ボタンを押して登録を完了します。</p>
+    <img class="step-img" src="step08.png" alt="STEP 8 の操作画面" loading="lazy" onerror="this.style.display='none'">
+  </section>
+
+  <!-- STEP 9 -->
   <section class="step-card complete">
-    <span class="step-badge">STEP 7</span>
+    <span class="step-badge">STEP 9</span>
     <h2 class="step-title">完了！</h2>
     <p class="step-desc">追加されると、いつでも音声をお聴きいただけます。</p>
+    <img class="step-img" src="step09.png" alt="STEP 9 の操作画面" loading="lazy" onerror="this.style.display='none'">
   </section>
 
   <!-- CONTACT -->

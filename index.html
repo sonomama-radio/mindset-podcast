@@ -163,6 +163,23 @@
     box-shadow: none;
   }
 
+  /* TIP NOTE */
+  .step-tip {
+    margin: 16px 0 0;
+    background: rgba(158, 237, 236, 0.22);
+    border: 1px solid rgba(41, 141, 140, 0.25);
+    border-radius: 12px;
+    padding: 14px 16px;
+    font-size: 14px;
+    color: var(--text-sub);
+    line-height: 1.8;
+  }
+
+  .step-tip b {
+    color: var(--primary);
+    font-weight: 700;
+  }
+
   /* CTA BUTTONS */
   .btn-group {
     display: flex;
@@ -333,12 +350,13 @@
   <section class="step-card">
     <span class="step-badge">STEP 6</span>
     <h2 class="step-title">URLを貼り付ける</h2>
-    <p class="step-desc">下の枠をタップしてURLをコピーし、入力欄に貼り付けます。</p>
+    <p class="step-desc">まず下の枠をタップすると、フィードのURLが自動でコピーされます。</p>
     <div class="copy-box" id="copyBox" role="button" tabindex="0" aria-label="URLをコピー">
       <p class="copy-label-top" id="copyLabelTop">📎 タップして自動コピー</p>
       <div class="copy-url" id="copyUrl">https://sonomama-radio.github.io/mindset-podcast/podcast.xml</div>
       <p class="copy-label-bottom">👆 ここをタップ</p>
     </div>
+    <p class="step-tip">💡 <b>貼り付け方</b>：<span class="nw">YouTube Music</span> の入力欄を<b>長押し</b>し、出てきた「<b>ペースト（貼り付け）</b>」をタップします。</p>
     <img class="step-img" src="step05.png" alt="STEP 6 の操作画面" loading="lazy" onerror="this.style.display='none'">
   </section>
 

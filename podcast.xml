@@ -227,5 +227,65 @@
       <pubDate>Mon, 25 May 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-022</guid>
     </item>
+    <item>
+      <title>Episode 23｜時間の使い方は人生の使い方</title>
+      <description>時間の使い方は人生の使い方について話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode23.mp3"
+        type="audio/mpeg"
+        length="9021781"/>
+      <pubDate>Tue, 26 May 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-023</guid>
+    </item>
+    <item>
+      <title>Episode 24｜目標を紙に書け</title>
+      <description>目標を紙に書けについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode24.mp3"
+        type="audio/mpeg"
+        length="7873333"/>
+      <pubDate>Wed, 27 May 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-024</guid>
+    </item>
+    <item>
+      <title>Episode 25｜自分を信じろ</title>
+      <description>自分を信じろについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode25.mp3"
+        type="audio/mpeg"
+        length="8416405"/>
+      <pubDate>Thu, 28 May 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-025</guid>
+    </item>
+    <item>
+      <title>Episode 26｜変化を恐れるな</title>
+      <description>変化を恐れるなについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode26.mp3"
+        type="audio/mpeg"
+        length="8493037"/>
+      <pubDate>Fri, 29 May 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-026</guid>
+    </item>
+    <item>
+      <title>Episode 27｜人の目を気にするな</title>
+      <description>人の目を気にするなについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode27.mp3"
+        type="audio/mpeg"
+        length="8592229"/>
+      <pubDate>Sat, 30 May 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-027</guid>
+    </item>
+    <item>
+      <title>Episode 28｜逆算思考</title>
+      <description>逆算思考について話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode28.mp3"
+        type="audio/mpeg"
+        length="6722461"/>
+      <pubDate>Sun, 31 May 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-028</guid>
+    </item>
   </channel>
 </rss>

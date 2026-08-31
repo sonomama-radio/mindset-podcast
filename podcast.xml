@@ -287,5 +287,16 @@
       <pubDate>Sun, 31 May 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-028</guid>
     </item>
+
+    <item>
+      <title>Episode 29｜影響力という責任</title>
+      <description>影響力という責任について話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode29.mp3"
+        type="audio/mpeg"
+        length="10771244"/>
+      <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-029</guid>
+    </item>
   </channel>
 </rss>

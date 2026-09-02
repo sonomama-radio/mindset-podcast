@@ -298,5 +298,16 @@
       <pubDate>Tue, 01 Sep 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-029</guid>
     </item>
+
+    <item>
+      <title>Episode 30｜人生は一度きり</title>
+      <description>人生は一度きりについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode30.mp3"
+        type="audio/mpeg"
+        length="13921580"/>
+      <pubDate>Wed, 02 Sep 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-030</guid>
+    </item>
   </channel>
 </rss>

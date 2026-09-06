@@ -309,5 +309,16 @@
       <pubDate>Wed, 02 Sep 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-030</guid>
     </item>
+
+    <item>
+      <title>Episode 31｜当たり前の基準を上げる</title>
+      <description>当たり前の基準を上げるについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode31.mp3"
+        type="audio/mpeg"
+        length="10452140"/>
+      <pubDate>Sun, 06 Sep 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-031</guid>
+    </item>
   </channel>
 </rss>

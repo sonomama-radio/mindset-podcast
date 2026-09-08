@@ -320,5 +320,16 @@
       <pubDate>Sun, 06 Sep 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-031</guid>
     </item>
+
+    <item>
+      <title>Episode 32｜セルフイメージを書き換える</title>
+      <description>セルフイメージを書き換えるについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode32.mp3"
+        type="audio/mpeg"
+        length="11227820"/>
+      <pubDate>Tue, 08 Sep 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-032</guid>
+    </item>
   </channel>
 </rss>

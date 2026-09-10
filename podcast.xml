@@ -331,5 +331,16 @@
       <pubDate>Tue, 08 Sep 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-032</guid>
     </item>
+
+    <item>
+      <title>Episode 33｜口癖が人生を作る</title>
+      <description>口癖が人生を作るについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode33.mp3"
+        type="audio/mpeg"
+        length="8433068"/>
+      <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-033</guid>
+    </item>
   </channel>
 </rss>

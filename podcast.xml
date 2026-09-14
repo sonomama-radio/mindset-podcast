@@ -342,5 +342,16 @@
       <pubDate>Thu, 10 Sep 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-033</guid>
     </item>
+
+    <item>
+      <title>Episode 34｜機嫌は自分でとる</title>
+      <description>機嫌は自分でとるについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode34.mp3"
+        type="audio/mpeg"
+        length="10096556"/>
+      <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-034</guid>
+    </item>
   </channel>
 </rss>

@@ -358,5 +358,16 @@
       <pubDate>Mon, 14 Sep 2026 09:00:00 +0900</pubDate>
       <guid isPermaLink="false">sonomama-ep-034</guid>
     </item>
+
+    <item>
+      <title>Episode 35｜守破離</title>
+      <description>守破離について話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode35.mp3"
+        type="audio/mpeg"
+        length="9075500"/>
+      <pubDate>Wed, 16 Sep 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-035</guid>
+    </item>
   </channel>
 </rss>

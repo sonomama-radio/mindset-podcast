@@ -380,5 +380,16 @@
       <pubDate>Fri, 18 Sep 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-036</guid>
     </item>
+
+    <item>
+      <title>Episode 37｜健全な危機感を持て</title>
+      <description>健全な危機感を持てについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode37.mp3"
+        type="audio/mpeg"
+        length="10206380"/>
+      <pubDate>Sun, 20 Sep 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-037</guid>
+    </item>
   </channel>
 </rss>

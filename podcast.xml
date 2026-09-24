@@ -402,5 +402,16 @@
       <pubDate>Tue, 22 Sep 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-038</guid>
     </item>
+
+    <item>
+      <title>Episode 39｜当事者意識を持て</title>
+      <description>当事者意識を持てについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode39.mp3"
+        type="audio/mpeg"
+        length="14010253"/>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-039</guid>
+    </item>
   </channel>
 </rss>

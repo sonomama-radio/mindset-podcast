@@ -424,5 +424,16 @@
       <pubDate>Mon, 28 Sep 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-040</guid>
     </item>
+
+    <item>
+      <title>Episode 41｜感謝の力</title>
+      <description>感謝の力について話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode41.mp3"
+        type="audio/mpeg"
+        length="12332365"/>
+      <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-041</guid>
+    </item>
   </channel>
 </rss>

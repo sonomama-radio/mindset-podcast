@@ -457,5 +457,16 @@
       <pubDate>Sun, 04 Oct 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-043</guid>
     </item>
+
+    <item>
+      <title>Episode 44｜やらないことを決める</title>
+      <description>やらないことを決めるについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode44.mp3"
+        type="audio/mpeg"
+        length="13063309"/>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-044</guid>
+    </item>
   </channel>
 </rss>

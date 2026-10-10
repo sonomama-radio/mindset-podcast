@@ -468,5 +468,16 @@
       <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-044</guid>
     </item>
+
+    <item>
+      <title>Episode 45｜数字に振り回されない</title>
+      <description>数字に振り回されないについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode45.mp3"
+        type="audio/mpeg"
+        length="11266189"/>
+      <pubDate>Sat, 10 Oct 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-045</guid>
+    </item>
   </channel>
 </rss>

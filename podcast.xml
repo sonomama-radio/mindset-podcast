@@ -490,5 +490,16 @@
       <pubDate>Mon, 12 Oct 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-046</guid>
     </item>
+
+    <item>
+      <title>Episode 47｜たった一人に向けて発信する</title>
+      <description>たった一人に向けて発信するについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode47.mp3"
+        type="audio/mpeg"
+        length="13689421"/>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-047</guid>
+    </item>
   </channel>
 </rss>

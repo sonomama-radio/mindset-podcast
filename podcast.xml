@@ -501,5 +501,16 @@
       <pubDate>Wed, 14 Oct 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-047</guid>
     </item>
+
+    <item>
+      <title>Episode 48｜成功する癖をつける</title>
+      <description>成功する癖をつけるについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode48.mp3"
+        type="audio/mpeg"
+        length="14194573"/>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-048</guid>
+    </item>
   </channel>
 </rss>

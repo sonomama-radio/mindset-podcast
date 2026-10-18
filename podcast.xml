@@ -512,5 +512,16 @@
       <pubDate>Fri, 16 Oct 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-048</guid>
     </item>
+
+    <item>
+      <title>Episode 49｜弱さを見せる勇気</title>
+      <description>弱さを見せる勇気について話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode49.mp3"
+        type="audio/mpeg"
+        length="13260301"/>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-049</guid>
+    </item>
   </channel>
 </rss>

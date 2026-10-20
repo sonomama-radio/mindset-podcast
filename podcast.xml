@@ -523,5 +523,16 @@
       <pubDate>Sun, 18 Oct 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-049</guid>
     </item>
+
+    <item>
+      <title>Episode 50｜なぜやるのか</title>
+      <description>なぜやるのかについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode50.mp3"
+        type="audio/mpeg"
+        length="13950925"/>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-050</guid>
+    </item>
   </channel>
 </rss>

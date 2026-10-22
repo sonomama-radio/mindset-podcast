@@ -534,5 +534,16 @@
       <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-050</guid>
     </item>
+
+    <item>
+      <title>Episode 51｜素直さは最強の才能</title>
+      <description>素直さは最強の才能について話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode51.mp3"
+        type="audio/mpeg"
+        length="13838029"/>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-051</guid>
+    </item>
   </channel>
 </rss>

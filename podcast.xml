@@ -556,5 +556,16 @@
       <pubDate>Sat, 24 Oct 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-052</guid>
     </item>
+
+    <item>
+      <title>Episode 53｜やり抜く力</title>
+      <description>やり抜く力について話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode53.mp3"
+        type="audio/mpeg"
+        length="14153677"/>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-053</guid>
+    </item>
   </channel>
 </rss>

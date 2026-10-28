@@ -567,5 +567,16 @@
       <pubDate>Mon, 26 Oct 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-053</guid>
     </item>
+
+    <item>
+      <title>Episode 54｜ピンチはチャンス</title>
+      <description>ピンチはチャンスについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode54.mp3"
+        type="audio/mpeg"
+        length="13689997"/>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-054</guid>
+    </item>
   </channel>
 </rss>

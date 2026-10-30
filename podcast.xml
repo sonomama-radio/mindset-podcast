@@ -578,5 +578,16 @@
       <pubDate>Wed, 28 Oct 2026 09:00:00 +0900</pubDate>
       <guid>sonomama-ep-054</guid>
     </item>
+
+    <item>
+      <title>Episode 55｜恩を忘れるな</title>
+      <description>恩を忘れるなについて話しています。</description>
+      <enclosure
+        url="https://sonomama-radio.github.io/mindset-podcast/episode55.mp3"
+        type="audio/mpeg"
+        length="14995727"/>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0900</pubDate>
+      <guid>sonomama-ep-055</guid>
+    </item>
   </channel>
 </rss>
